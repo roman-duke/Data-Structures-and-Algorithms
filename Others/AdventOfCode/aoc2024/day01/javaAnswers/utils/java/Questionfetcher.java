@@ -14,7 +14,6 @@ public class Questionfetcher {
   private static final String URL_STRING = EnvReader.readEnv("ADVENT_OF_CODE_DAY_1_INPUT_URL");
 
   public static String fetchQuestion() throws IOException, InterruptedException {
-    System.out.println("Here is the environment variable --> " + URL_STRING);
     // Create an HttpClient instance
     HttpClient client = HttpClient.newHttpClient();
 
